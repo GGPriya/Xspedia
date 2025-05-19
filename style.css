@@ -1,0 +1,130 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: #fff;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+nav .btn {
+  background: #e8d9cb;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background: #f1f1f1;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  margin-bottom: 20px;
+}
+.hero-text button {
+  background: #e8d9cb;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.hero-image .placeholder {
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Features */
+.features {
+  padding: 50px 10%;
+  background: #fdf9f5;
+}
+.features h2 {
+  margin-bottom: 30px;
+}
+.feature-items {
+  display: flex;
+  justify-content: space-between;
+}
+.feature {
+  text-align: center;
+  width: 30%;
+}
+.feature .icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 50px 10%;
+}
+.testimonial-items {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.author {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Pricing */
+.pricing {
+  padding: 50px 10%;
+  background: #fdf9f5;
+}
+.pricing-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+.pricing-box .price {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+.pricing-box button {
+  margin-top: 10px;
+  background: #e8d9cb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
