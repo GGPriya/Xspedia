@@ -6,7 +6,7 @@
 }
 body {
   font-family: Arial, sans-serif;
-  background: #f7f7f7;
+  background: #90c7d3;
   color: #333;
   line-height: 1.6;
 }
@@ -38,7 +38,7 @@ nav .btn {
   justify-content: space-between;
   align-items: center;
   padding: 50px 10%;
-  background: #f1f1f1;
+  background: #86becf;
 }
 .hero-text h1 {
   font-size: 2.5em;
@@ -87,7 +87,7 @@ nav .btn {
 
 /* Testimonials */
 .testimonials {
-  padding: 50px 10%;
+  padding: 30px 10%;
 }
 .testimonial-items {
   display: flex;
@@ -116,6 +116,10 @@ nav .btn {
   border-radius: 8px;
   width: 300px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.pricing-items {
+  display: flex;
+  justify-content: space-evenly;
 }
 .pricing-box .price {
   font-size: 1.8em;
